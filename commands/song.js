@@ -3,6 +3,7 @@ const yts = require('yt-search');
 const fs = require('fs');
 const path = require('path');
 const { toAudio } = require('../lib/converter');
+const { Vcard } = require('../lib/Parsley');
 
 const AXIOS_DEFAULTS = {
 	timeout: 60000,

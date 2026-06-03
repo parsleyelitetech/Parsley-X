@@ -1,5 +1,6 @@
 const axios = require('axios');
 const yts = require('yt-search');
+const { Vcard } = require('../lib/Parsley');
 
 const AXIOS_DEFAULTS = {
     timeout: 60000,
